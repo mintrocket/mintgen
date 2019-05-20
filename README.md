@@ -7,16 +7,16 @@
 1)  Create `mintgen.json` file.
 ```
 {
-		"xcodeprojPath": "someProject.xcodeproj",
-		"projectName": "someProjectName",
-		"projectTarget": "someProjectTarget",
-		"prefix": "MR",
-		"projectFilePath": "someProject/Classes/Modules",
-		"templatesPath": "templates",
+	"xcodeprojPath": "someProject.xcodeproj",
+	"projectName": "someProjectName",
+	"projectTarget": "someProjectTarget",
+	"prefix": "MR",
+	"projectFilePath": "someProject/Classes/Modules",
+	"templatesPath": "templates",
 
-		"company": "Mint Rocket LLC",
-...
-		"myParam": "My awesome parameter"
+	"company": "Mint Rocket LLC",
+	...
+	"myParam": "My awesome parameter"
 }
 ```
 Required params:
