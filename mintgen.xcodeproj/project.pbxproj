@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2ED0E0F8077136C2B6140D8 /* libPods-mintgen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3C432AEA62C93D464638E /* libPods-mintgen.a */; };
+		C7403EF422915A4A00A1542C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7403EF322915A4A00A1542C /* main.swift */; };
+		C7403EFC22915A9E00A1542C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7403EFB22915A9E00A1542C /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7403EEE22915A4A00A1542C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		266864675A83EE825A44BA84 /* Pods-mintgen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintgen.release.xcconfig"; path = "Pods/Target Support Files/Pods-mintgen/Pods-mintgen.release.xcconfig"; sourceTree = "<group>"; };
+		7EC3C432AEA62C93D464638E /* libPods-mintgen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mintgen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D4C07EACEAC27526BE3C60 /* Pods-mintgen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintgen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mintgen/Pods-mintgen.debug.xcconfig"; sourceTree = "<group>"; };
+		C7403EF022915A4A00A1542C /* mintgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mintgen; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7403EF322915A4A00A1542C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C7403EFB22915A9E00A1542C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C7403EFD22915D3600A1542C /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7403EED22915A4A00A1542C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ED0E0F8077136C2B6140D8 /* libPods-mintgen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEDD5D10F86DEB2CBB107DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7403EFD22915D3600A1542C /* AEXML.framework */,
+				7EC3C432AEA62C93D464638E /* libPods-mintgen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7403EE722915A4A00A1542C = {
+			isa = PBXGroup;
+			children = (
+				C7403EF222915A4A00A1542C /* mintgen */,
+				C7403EF122915A4A00A1542C /* Products */,
+				F59A5A4FAB5622EE1C6858DF /* Pods */,
+				ADEDD5D10F86DEB2CBB107DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7403EF122915A4A00A1542C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7403EF022915A4A00A1542C /* mintgen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7403EF222915A4A00A1542C /* mintgen */ = {
+			isa = PBXGroup;
+			children = (
+				C7403EFA22915A8500A1542C /* Models */,
+				C7403EF322915A4A00A1542C /* main.swift */,
+			);
+			path = mintgen;
+			sourceTree = "<group>";
+		};
+		C7403EFA22915A8500A1542C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7403EFB22915A9E00A1542C /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F59A5A4FAB5622EE1C6858DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4C07EACEAC27526BE3C60 /* Pods-mintgen.debug.xcconfig */,
+				266864675A83EE825A44BA84 /* Pods-mintgen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7403EEF22915A4A00A1542C /* mintgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7403EF722915A4A00A1542C /* Build configuration list for PBXNativeTarget "mintgen" */;
+			buildPhases = (
+				54C37AE7BA0CD775FBC02920 /* [CP] Check Pods Manifest.lock */,
+				C7403EEC22915A4A00A1542C /* Sources */,
+				C7403EED22915A4A00A1542C /* Frameworks */,
+				C7403EEE22915A4A00A1542C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mintgen;
+			productName = mintgen;
+			productReference = C7403EF022915A4A00A1542C /* mintgen */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7403EE822915A4A00A1542C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Иван Морозов";
+				TargetAttributes = {
+					C7403EEF22915A4A00A1542C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C7403EEB22915A4A00A1542C /* Build configuration list for PBXProject "mintgen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7403EE722915A4A00A1542C;
+			productRefGroup = C7403EF122915A4A00A1542C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7403EEF22915A4A00A1542C /* mintgen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54C37AE7BA0CD775FBC02920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintgen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7403EEC22915A4A00A1542C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7403EFC22915A9E00A1542C /* Settings.swift in Sources */,
+				C7403EF422915A4A00A1542C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7403EF522915A4A00A1542C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7403EF622915A4A00A1542C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C7403EF822915A4A00A1542C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D4C07EACEAC27526BE3C60 /* Pods-mintgen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 983G5U62PZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C7403EF922915A4A00A1542C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266864675A83EE825A44BA84 /* Pods-mintgen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 983G5U62PZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7403EEB22915A4A00A1542C /* Build configuration list for PBXProject "mintgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7403EF522915A4A00A1542C /* Debug */,
+				C7403EF622915A4A00A1542C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7403EF722915A4A00A1542C /* Build configuration list for PBXNativeTarget "mintgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7403EF822915A4A00A1542C /* Debug */,
+				C7403EF922915A4A00A1542C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7403EE822915A4A00A1542C /* Project object */;
+}
