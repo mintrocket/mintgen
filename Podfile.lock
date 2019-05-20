@@ -1,0 +1,33 @@
+PODS:
+  - AEXML (4.3.3)
+  - PathKit (0.9.2)
+  - Stencil (0.13.1):
+    - PathKit (~> 0.9.0)
+  - SwiftShell (5.0.0)
+  - xcodeproj (6.7.0):
+    - AEXML (~> 4.3.3)
+    - PathKit (~> 0.9.2)
+    - SwiftShell (>= 4.0.0)
+
+DEPENDENCIES:
+  - Stencil (= 0.13.1)
+  - xcodeproj (= 6.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - PathKit
+    - Stencil
+    - SwiftShell
+    - xcodeproj
+
+SPEC CHECKSUMS:
+  AEXML: 601f41fcaa7bda7605cad153b0f43db9ec006c0f
+  PathKit: 273f59a38e3218eb95abd9f6a61730a8bcfd2f06
+  Stencil: b5128a0a43ece9225db5cbd94d6569fe6fba609b
+  SwiftShell: e5097502891a4ab82049edea0ecefa2a2c242782
+  xcodeproj: eae793317ce7f844b1ec073321be0887bb130572
+
+PODFILE CHECKSUM: a670526798f90f8da1b5f8c72b38e0c1d82cdda7
+
+COCOAPODS: 1.5.3
