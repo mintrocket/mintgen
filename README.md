@@ -2,7 +2,15 @@
 **mintgen** is an utility written in Swift for generating code for Xcode projects. Primarily it is designed to generate Swift classes but it is quite easy to customize it for generation of Objective-C classes and other.
 
 ---
+### Installation
+- _[Homebrew](https://brew.sh)_
 
+```
+brew tap mintrocket/tap https://github.com/mintrocket/homebrew-tap
+brew install mintgen
+```
+
+---
 ### Usage
 1)  Create `mintgen.json` file.
 ```
