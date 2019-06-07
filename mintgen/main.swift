@@ -47,6 +47,11 @@ guard let xcodeTarget = proj.pbxproj.targets(named: settings.projectTarget).firs
     exit(1)
 }
 
+guard let sourcesBuildPhase = try? xcodeTarget.sourcesBuildPhase() else {
+    print("Build phase cannot be obtained")
+    exit(1)
+}
+
 // MARK: - Generate context
 
 let components =  CommandLine.arguments[1].split(separator: "/")
@@ -79,8 +84,6 @@ for folder in targetFolder.components {
 
 // MARK: - Code generation
 
-let sourcesBuildPhase = xcodeTarget.buildPhases.first
-
 for filePath in templatePathes where filePath.extension == "mint" {
     let fileName = filePath.lastComponent.split(separator: ".").dropLast().joined(separator: ".")
     let resultName = [settings.prefix, name, fileName].joined()
@@ -96,7 +99,7 @@ for filePath in templatePathes where filePath.extension == "mint" {
     let fileRef = try targetGroup?.addFile(at: filePath, sourceRoot: Path("."))
     let buildFile = PBXBuildFile(file: fileRef!)
     proj.pbxproj.add(object: buildFile)
-    sourcesBuildPhase?.files?.append(buildFile)
+    sourcesBuildPhase.files?.append(buildFile)
 }
 
 print("Updating project...")
